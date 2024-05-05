@@ -10,7 +10,11 @@ import 'components/description.dart';
 import 'components/product_title_with_image.dart';
 
 class DetailsScreen extends StatelessWidget {
-  const DetailsScreen({super.key, required this.product});
+
+  const DetailsScreen({
+    super.key,
+    required this.product
+  });
 
   final Product product;
 
